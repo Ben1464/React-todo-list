@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Todo = ({ todo }) => {
-  return (
-    <div>
-      <label>
-        <input type="checkbox" checked={todo.completed} />
-        {todo.text}
-      </label>
-    </div>
-  );
-};
+const Todo = ({todo})=>{
+    return(
+        <>
+        <label>
+            <input type = "checkbox" checked = {todo.completed}/>
+            {todo.text}
+        </label>
+        </>
 
+    );
+};
 export default Todo;
